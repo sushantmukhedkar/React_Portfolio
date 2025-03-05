@@ -78,7 +78,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing my projects, skills, and contact information with a clean and modern design.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
-    githubLink:"https://github.com/sushantmukhedkar/Portfolio_React",
+    githubLink:"https://github.com/sushantmukhedkar/React_Portfolio",
   },
 ];
 
