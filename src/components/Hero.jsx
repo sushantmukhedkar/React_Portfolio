@@ -70,18 +70,29 @@ const Hero = () => {
                             {HERO_CONTENT}
                         </motion.p>
 
+                       
                         <motion.button
-                            variants={container(1)}
-                            initial="hidden"
-                            animate="visible"
-                            onClick={handleResumeDownload}
-                            className='mt-6 px-6 py-3 w-full lg:w-auto text-center
-                                       bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 
-                                       text-white rounded-lg hover:bg-gradient-to-l 
-                                       transition-all duration-300 ease-in-out 
-                                       transform hover:scale-105 focus:outline-none'
-                        >
-                            Download Resume
+                                variants={container(1)}
+                                initial="hidden"
+                                animate="visible"
+                                onClick={handleResumeDownload}
+                                className='mt-6 px-4 py-2 sm:px-6 sm:py-3 w-full sm:max-w-[300px] 
+                                           bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 
+                                           text-white rounded-lg hover:bg-gradient-to-l 
+                                           transition-all duration-300 ease-in-out 
+                                           transform hover:scale-105 focus:outline-none
+                                           text-base sm:text-lg
+                                           flex items-center justify-center 
+                                           mx-auto lg:mx-0 lg:mr-auto'>
+                                <svg xmlns="http://www.w3.org/2000/svg" 
+                                     className="h-5 w-5 mr-2 sm:h-6 sm:w-6" 
+                                     fill="none" 
+                                     viewBox="0 0 24 24" 
+                                     stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} 
+                                          d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                                </svg>
+                                Download Resume
                         </motion.button>
                     </div>
                 </div>
